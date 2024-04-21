@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sema Sena Kürüm</title>
-    <!--CUSTOM STYLESHEET-->
+    <!--ÖZEL STİL DOSYASI-->
     <link rel="stylesheet" href="./style.css">
-    <!-- ICONSCOUT CDN -->
+    <!-- İKONSCOUT CDN -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <!--GOOGLE FONT (MONTSERRAT)-->
+    <!--GOOGLE YAZI TIPI (MONTSERRAT)-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 </head>
+
 
 <body>
     <nav>
@@ -23,15 +24,14 @@
                 <li><a href="about.html">Hakkımda</a></li>
                 <li><a href="services.html">Servisler</a></li>
                 <li><a href="contact.html">İletişim</a></li>
-                <!-- <li><a href="signin.html">Giriş</a></li> -->
                 <li class="nav__profile">
                     <div class="avatar">
                         <img src="./images/avatar.jpeg">
                     </div>
 
                     <ul>
-                        <li><a href="dashboard.html">Dashboard</a></li>
-                        <li><a href="logout.html">Logout</a></li>
+                        <li><a href="dashboard.html">Kontrol Paneli</a></li>
+                        <li><a href="logout.html">Çıkış Yap</a></li>
                     </ul>
 
                 </li>
@@ -41,7 +41,7 @@
             <button id="close__nav-btn"><i class="uil uil-multiply"></i></button>
         </div>
     </nav>
-    <!---============ END OF NAV ==================================-->
+    <!---============ NAV ==================================-->
 
     <section class="featured">
         <div class="container featured__container">
@@ -52,15 +52,7 @@
                 <a href="category-posts.html" class="category__button">Network</a>
                 <h2 class="post__title"><a href="post.html">Docker</a></h2>
                 <p class="post__body">
-                    Docker, uygulamaları hızlı derleme, test
-etme ve dağıtmayı sağlayan bir yazılım
-platformudur.
-LXC (Linux Container) üzerine kurulu bir
-teknoloji olan docker’ın temel mantığı,
-uygulamayı çalıştırmak için ayrı bir işletim
-sistemi kullanmak yerine sadece uygulama ile ilgili kütüphaneleri ve
-çalıştırılabilir dosyaları kullanmaya dayanır. Bu sayede kaynak israfı fazlasıyla
-önlenir. 
+                    Docker, uygulamaları hızlı derleme, test etme ve dağıtmayı sağlayan bir yazılım platformudur. LXC (Linux Container) üzerine kurulu bir teknoloji olan docker’ın temel mantığı, uygulamayı çalıştırmak için ayrı bir işletim sistemi kullanmak yerine sadece uygulama ile ilgili kütüphaneleri ve çalıştırılabilir dosyaları kullanmaya dayanır. Bu sayede kaynak israfı fazlasıyla önlenir. 
                 </p>
                 <div class="post__author">
                     <div class="post__author-avatar">
@@ -71,13 +63,11 @@ sistemi kullanmak yerine sadece uygulama ile ilgili kütüphaneleri ve
                         <small> Nisan 9, 2024 - 08:58</small>
                     </div>
                 </div>
-
             </div>
-
         </div>
-
     </section>
-    <!---============ END OF FEATURED ===========================-->
+    
+    <!---============ ÖNE ÇIKAN ===========================-->
 
 
     <section class="posts">
@@ -92,19 +82,17 @@ sistemi kullanmak yerine sadece uygulama ile ilgili kütüphaneleri ve
                     </h3>
                     <p class="post__body">
                         OSINT Nedir?
-OSINT (Açık Kaynak İstihbaratı), siber güvenlik ve istihbarat alanlarında kullanılan bir bilgi toplama ve analiz sürecidir. Bu süreçte, çeşitli kamuya açık kaynaklar kullanılır.
-
-Peki hangi kaynaklardan OSINT bilgileri elde edilir?
-İnternet siteleri
-Sosyal medya platformları (Twitter, Facebook, LinkedIn vb.)
-Haber siteleri
-Kamu kayıtları (mahkeme kayıtları, sicil kayıtları)
-Akademik makaleler
-Ticari veritabanları gibi çeşitli kaynaklardan elde edilebilir.
-OSINT Framework Nedir?
-OSINT Framework’ü, bilgi toplama sürecini daha organize bir hale getirmek ve yönetmek için kullanılan bir araç ve kaynaklar topluluğudur.
-
-https://osintframework.com/
+                        OSINT (Açık Kaynak İstihbaratı), siber güvenlik ve istihbarat alanlarında kullanılan bir bilgi toplama ve analiz sürecidir. Bu süreçte, çeşitli kamuya açık kaynaklar kullanılır.
+                        Peki hangi kaynaklardan OSINT bilgileri elde edilir?
+                        İnternet siteleri
+                        Sosyal medya platformları (Twitter, Facebook, LinkedIn vb.)
+                        Haber siteleri
+                        Kamu kayıtları (mahkeme kayıtları, sicil kayıtları)
+                        Akademik makaleler
+                        Ticari veritabanları gibi çeşitli kaynaklardan elde edilebilir.
+                        OSINT Framework Nedir?
+                        OSINT Framework’ü, bilgi toplama sürecini daha organize bir hale getirmek ve yönetmek için kullanılan bir araç ve kaynaklar topluluğudur.
+                        https://osintframework.com/
                     </p>
                     <div class="post__author">
                         <div class="post__author-avatar">
@@ -117,20 +105,20 @@ https://osintframework.com/
                     </div>
                 </div>
             </article>
-            <!-- Other posts go here -->
+
+            <!-- Diğer yazılar buraya gelecek-->
+
             <article class="post">
                 <div class="post__thumbnail">
                     <img src="./images/blog8.jpg">
                 </div>
                 <div class="post__info">
-                    <a href="category-posts.html" class="category__button"> Hardware </a>
+                    <a href="category-posts.html" class="category__button">Hardware</a>
                     <h3 class="post__title"><a href="post.html">Memtest86 ile RAM (Random Access Memory) Testi</a>
                     </h3>
                     <p class="post__body">
                         Bilgisayarın geçici verileri depoladığı ve işlemciye hızlı erişim sağlayan RAM, sisteminizin temel bileşenlerinden biridir. Ancak, zamanla bellek modüllerinde hatalar ortaya çıkabilir veya performansları düşebilir. Bu nedenle, RAM testi yapmak önemlidir.
-
-RAM testi, sisteminizin bellek modüllerinin doğru şekilde çalışıp çalışmadığını kontrol etmek için yapılan bir işlemdir.
-
+                        RAM testi, sisteminizin bellek modüllerinin doğru şekilde çalışıp çalışmadığını kontrol etmek için yapılan bir işlemdir.
                     </p>
                     <div class="post__author">
                         <div class="post__author-avatar">
@@ -143,6 +131,7 @@ RAM testi, sisteminizin bellek modüllerinin doğru şekilde çalışıp çalı�
                     </div>
                 </div>
             </article>
+
             <article class="post">
                 <div class="post__thumbnail">
                     <img src="./images/blog9.jpg">
@@ -153,11 +142,9 @@ RAM testi, sisteminizin bellek modüllerinin doğru şekilde çalışıp çalı�
                     </h3>
                     <p class="post__body">
                         Lynis, açık kaynak kodlu bir güvenlik denetim aracıdır. Sistem ve ağ güvenliği denetimlerini gerçekleştirmek için kullanılır. Lynis, Linux ve diğer UNIX benzeri işletim sistemlerinde çalışır.
-
-Kurulumu ve Genel Kullanımı
-Kali Linux terminal ekranına “apt-get install lynis” yazarak Linux sistemine Lynis aracı kurulur.
-
-Daha sonra, “lynis” yazarak araç çalıştırılır. Çıkan ekranda Lynis’in komutlarını, seçeneklerini ve kullanım talimatlarını gösteren bir kılavuz bulunmaktadır.
+                        Kurulumu ve Genel Kullanımı
+                        Kali Linux terminal ekranına “apt-get install lynis” yazarak Linux sistemine Lynis aracı kurulur.
+                        Daha sonra, “lynis” yazarak araç çalıştırılır. Çıkan ekranda Lynis’in komutlarını, seçeneklerini ve kullanım talimatlarını gösteren bir kılavuz bulunmaktadır.
                     </p>
                     <div class="post__author">
                         <div class="post__author-avatar">
@@ -170,6 +157,7 @@ Daha sonra, “lynis” yazarak araç çalıştırılır. Çıkan ekranda Lynis�
                     </div>
                 </div>
             </article>
+
             <article class="post">
                 <div class="post__thumbnail">
                     <img src="./images/blog10.jpg">
@@ -180,10 +168,9 @@ Daha sonra, “lynis” yazarak araç çalıştırılır. Çıkan ekranda Lynis�
                     </h3>
                     <p class="post__body">
                         Firewall (Güvenlik Duvarı) Nedir?
-Firewall, Türkçe’de “güvenlik duvarı” anlamına gelir. Bir bilgisayar ağı güvenlik sistemidir. Bilgisayar ağı içerisindeki veri trafiğini denetleyerek istenmeyen veya tehlikeli erişimleri engeller veya sınırlandırır.
-
-Neden Firewall Kullanılır?
-İnternet üzerindeki kötü amaçlı yazılımlar, saldırılar ve veri sızıntıları gibi tehditlerden korunmak ve ağ trafiğini düzenlemek amacıyla kullanılır.
+                        Firewall, Türkçe’de “güvenlik duvarı” anlamına gelir. Bir bilgisayar ağı güvenlik sistemidir. Bilgisayar ağı içerisindeki veri trafiğini denetleyerek istenmeyen veya tehlikeli erişimleri engeller veya sınırlandırır.
+                        Neden Firewall Kullanılır?
+                        İnternet üzerindeki kötü amaçlı yazılımlar, saldırılar ve veri sızıntıları gibi tehditlerden korunmak ve ağ trafiğini düzenlemek amacıyla kullanılır.
                     </p>
                     <div class="post__author">
                         <div class="post__author-avatar">
@@ -196,6 +183,7 @@ Neden Firewall Kullanılır?
                     </div>
                 </div>
             </article>
+
             <article class="post">
                 <div class="post__thumbnail">
                     <img src="./images/blog11.jpg">
@@ -206,15 +194,15 @@ Neden Firewall Kullanılır?
                     </h3>
                     <p class="post__body">
                         Windows işletim sisteminin bir bileşenidir.
- Bilgisayarda meydana gelen çeşitli olayları incelemek ve sorun gidermek için
-kullanılır.
- Sistem günlüklerini (logları) ve olay kayıtlarını izlemeye ve analiz etmeye
-olanak tanır.
- Örneğin, bir programın neden çöktüğünü veya bir cihazın neden çalışmadığını
-belirlemek için kullanılabilir.
- Olay Görüntüleyicisi, Windows'un "Yönetim Araçları" altında bulunur ve
-genellikle "Başlat" menüsünden veya "Çalıştır" penceresinden
-"eventvwr.msc" komutunu kullanarak erişilebilir.
+                        Bilgisayarda meydana gelen çeşitli olayları incelemek ve sorun gidermek için
+                        kullanılır.
+                        Sistem günlüklerini (logları) ve olay kayıtlarını izlemeye ve analiz etmeye
+                        olanak tanır.
+                        Örneğin, bir programın neden çöktüğünü veya bir cihazın neden çalışmadığını
+                        belirlemek için kullanılabilir.
+                        Olay Görüntüleyicisi, Windows'un "Yönetim Araçları" altında bulunur ve
+                        genellikle "Başlat" menüsünden veya "Çalıştır" penceresinden
+                        "eventvwr.msc" komutunu kullanarak erişilebilir.
                     </p>
                     <div class="post__author">
                         <div class="post__author-avatar">
@@ -227,6 +215,7 @@ genellikle "Başlat" menüsünden veya "Çalıştır" penceresinden
                     </div>
                 </div>
             </article>
+
             <article class="post">
                 <div class="post__thumbnail">
                     <img src="./images/blog4.png">
@@ -237,9 +226,7 @@ genellikle "Başlat" menüsünden veya "Çalıştır" penceresinden
                     </h3>
                     <p class="post__body">
                         Bal Küpü (Honeypot) Nedir?
-Honeypot, siber güvenlik alanında sıklıkla kullanılan bir araçtır. Suçluları kandırmak için meşru bir hedef gibi görünür. Saldırganların dikkatini çekmek ve saldırılarını bu sahte ortama yönlendirmek amacıyla tasarlanmıştır.
-
-
+                        Honeypot, siber güvenlik alanında sıklıkla kullanılan bir araçtır. Suçluları kandırmak için meşru bir hedef gibi görünür. Saldırganların dikkatini çekmek ve saldırılarını bu sahte ortama yönlendirmek amacıyla tasarlanmıştır.
                     </p>
                     <div class="post__author">
                         <div class="post__author-avatar">
@@ -255,7 +242,7 @@ Honeypot, siber güvenlik alanında sıklıkla kullanılan bir araçtır. Suçlu
         </div>
     </section>
 
-    <!---============ END OF POSTS =============================-->
+    <!---============ GÖNDERİLER =============================-->
 
     <section class="category__buttons">
         <div class="container category__buttons-container">
@@ -265,14 +252,14 @@ Honeypot, siber güvenlik alanında sıklıkla kullanılan bir araçtır. Suçlu
             <a href="" class="category__button">Digital Forensic</a>
         </div>
     </section>
-    <!---============ END OF CATEGORY BUTTONS ==========-->
+    <!---============ KATEGORİ BUTONLARI ==========-->
 
     <footer>
         <div class="footer__social">
             <a href="https://www.instagram.com/skurum/" target="_blank"><i class="uil uil-instagram"></i></a>
             <a href="https://www.linkedin.com/in/semasenakurum/" target="_blank"><i class="uil uil-linkedin"></i></a>
         </div>
-        <div class="container footer_container">
+        <div class="container footer__container">
             <article>
                 <h4>Categories</h4>
                 <ul>

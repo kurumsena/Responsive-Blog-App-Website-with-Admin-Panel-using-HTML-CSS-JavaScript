@@ -28,7 +28,7 @@
 }
 
 /* ============================================================
-GENERAL
+GENEL
 ====================================================== */ 
 
 * { 
@@ -103,7 +103,7 @@ img {
 }
 
 /* 
-===========================================NAV ================= */ 
+=========================================== NAV ================= */ 
 
 nav{
     background: var(--color-primary);
@@ -165,7 +165,7 @@ nav button {
     
 }
 
-/* show nav ul when nav profile is hovered */ 
+/* Nav profil üzerine gelindiğinde nav ul'ü göster */
 .nav__profile:hover > ul {
     visibility: visible;
     opacity: 1;
@@ -185,7 +185,7 @@ nav button {
 }
 
 /* 
-===========================================CATEGORY BUTTON ================= */
+=========================================== KATEGORİ BUTONU ================= */
 
 .category__button {
     background: var(--color-primary-light);
@@ -203,7 +203,7 @@ nav button {
 }
 
 /* 
-===========================================GENERAL POST ================= */
+=========================================== GENEL GÖNDERİLER ================= */
 .post__thumbnail {
     border-radius: var(--card-border-radius-5) 0;
     border: 1rem solid var(--color-gray-900);
@@ -230,7 +230,7 @@ nav button {
     overflow: hidden;
 }
 /* 
-===========================================FEATURED================= */
+===========================================ÖNE ÇIKAN================= */
 
 .featured {
     margin-top: 8rem;
@@ -248,7 +248,7 @@ nav button {
 
 }
 /* 
-===========================================POSTS================= */
+===========================================GÖNDERİLER================= */
 
 .posts__container {
     display: grid;
@@ -260,7 +260,7 @@ nav button {
 }
 
 /* 
-===========================================CATEGORY BUTTONS================= */
+===========================================KATEGORİ BUTONLARI================= */
 
 .category__buttons {
     padding: 4rem 0;
@@ -277,7 +277,7 @@ nav button {
 }
 
 /* 
-===========================================FOOTER================= */
+===========================================ALT BİLGİ================= */
 
 footer {
     background: var(--color-gray-900);
@@ -343,7 +343,7 @@ footer ul a:hover {
 }
 
 /* 
-===========================================MEDIA SEARCH================= */ 
+===========================================ARAMA (SEARCH)================= */ 
 .search__bar {
     margin-top: 7rem;
   }
@@ -382,7 +382,7 @@ footer ul a:hover {
   }
 
   
-/*=================== BUTTON ========================================== */
+/*=================== BUTON ========================================== */
     
     .btn {
         display: inline-block;
@@ -412,7 +412,7 @@ footer ul a:hover {
 
 
   
-/*=================== SINGLE POST ========================================== */
+/*=================== TEK GÖNDERİ ========================================== */
 .singlepost {
     margin: 6rem 0 2rem;
 }
@@ -431,7 +431,7 @@ footer ul a:hover {
     line-height: 1.7;
 }
 
-/*=================== CATEGORY POSTS ========================================== */
+/*=================== KATEGORİ BUTONLARI ========================================== */
 
 .category__title {
     height: 15rem;
@@ -441,14 +441,14 @@ footer ul a:hover {
     place-items: center;
 }
 
-/*=================== EMPTY PAGES ========================================== */
+/*=================== BOŞ SAYFALAR ========================================== */
 .empty__page {
     height: 70vh;
     text-align: center;
     display: grid;
     place-content: center;
 }
-/*=================== GENERAL FORM========================================== */
+/*=================== GENEL FORM ========================================== */
 
 .form__section {
     display: grid;
@@ -513,7 +513,7 @@ input, textarea, select {
 }
 
 /* 
-===========================================DASHBOARD================= */
+===========================================KONTROL PANELİ (DASHBOARD) ================= */
 
 .dashboard {
     margin-top: 6rem;
@@ -591,7 +591,7 @@ input, textarea, select {
 /* 
 ===========================================MEDIA QUERIES (MEDIUM DEVİCES)================= */
 @media screen and (max-width: 1024px) {
-    /*==================GENERAL========================================*/
+    /*==================GENEL========================================*/
    .container {
     width: var(--container-width-md);
    }
@@ -661,7 +661,7 @@ input, textarea, select {
     animation-delay: 800ms;
    }
 
-   /*=================== nav dropdown animation============== */ 
+   /*=================== nav dropdown ============= */ 
    @keyframes animationDropdown {
     0% {
         transform: rotateX(90deg)

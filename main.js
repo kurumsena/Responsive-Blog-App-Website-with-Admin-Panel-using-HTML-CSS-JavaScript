@@ -2,14 +2,14 @@ const navItems = document.querySelector('.nav__items');
 const openNavBtn = document.querySelector('#open__nav-btn');
 const closeNavBtn = document.querySelector('#close__nav-btn');
 
-// opens nav dropdown 
+// Nav menüsünü açar
 const openNav = () => {
     navItems.style.display = 'flex';
     openNavBtn.style.display = 'none';
     closeNavBtn.style.display = 'inline-block';
 }
 
-// close nav dropdown 
+// Nav menüsünü kapatır 
 const closeNav = () => {
     navItems.style.display = 'none';
     openNavBtn.style.display = 'inline-block';
@@ -24,13 +24,13 @@ const sidebar = document.querySelector('aside');
 const showSidebarBtn = document.querySelector('#show__sidebar-btn');
 const hideSidebarBtn = document.querySelector('#hide__sidebar-btn');
 
-// shows sidebar on small devices
+// Küçük cihazlarda yan menüyü gösterir
 const showSidebar = () => {
     sidebar.style.left= '0';
     showSidebarBtn.style.display = 'none';
     hideSidebarBtn.style.display = 'inline-block';
 }
-// hide sidebar on small devices
+// Küçük cihazlarda yan menüyü gizler
 const hideSidebar = () => {
     sidebar.style.left= '-100%';
     showSidebarBtn.style.display = 'inline-block';
