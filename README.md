@@ -1,1 +1,1 @@
-This blog application/website is developed using PHP and is integrated with an admin panel that allows users to easily add, edit, and manage content. Its responsive design ensures seamless operation across different devices and screen sizes.
+This blog application/website is developed using HTML, CSS and JavaScript and is integrated with an admin panel that allows users to easily add, edit, and manage content. Its responsive design ensures seamless operation across different devices and screen sizes.
